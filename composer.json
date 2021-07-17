@@ -1,0 +1,36 @@
+{
+    "name": "jalno/laravel-money",
+    "description": "Laravel Money based on Jalno Money",
+    "type": "library",
+    "keywords": [
+        "Jalno",
+        "Money",
+        "Currency"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.1 || ^8.0",
+        "jalno/money": "*",
+        "jalno/translator": "dev-master",
+        "laravel/framework": "8.x"
+    },
+    "require-dev": {
+        "nunomaduro/larastan": "^0.7.6",
+        "orchestra/testbench": "^6.18.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jalno\\LaravelMoney\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "/home/composer/money"
+        }
+    ]
+}
